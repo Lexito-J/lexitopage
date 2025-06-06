@@ -137,3 +137,12 @@ openMenu.addEventListener("click", () => {
 closeMenu.addEventListener("click", () => {
     aside.classList.remove("aside-visible");
 })
+
+/*footer*/
+
+ 
+    // Footer dinámico con año actual
+    document.getElementById("year").textContent = new Date().getFullYear();
+    console.log("Footer cargado correctamente con año dinámico.");
+  
+    

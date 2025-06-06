@@ -11,12 +11,6 @@
           text-align: center;
           margin-top: 40px;
         }
-        .escribenos{
-          line-height: 0;
-          display: inline-block
-
-        }
-        
         .header-bar {
             width: 100%;
             background: #003d92;
@@ -66,8 +60,6 @@
             position: absolute;
         }
 
-        /*footer*/
-        
         footer {
             background-color: #222;
             padding: 20px;
@@ -92,39 +84,6 @@
           color: white;
           text-align: center;
         }
-
-        /*footer  2 columnas-*/
-       footer {
-        background-color: hsl(0, 9%, 30%);
-        padding: 2em;
-        display: flex;
-        justify-content: space-between;
-        flex-wrap: wrap;
-        gap: 1em;
-        font-family: Arial, sans-serif;
-        color: #ffffff;
-        text-align: justify;
-      }
-
-      .footer-column {
-        width: 45%;
-        min-width: 200px;
-      }
-
-      .footer-column h3 {
-        font-size: 1.2em;
-        margin-bottom: 0.5em;
-        color: #ffffff;
-        text-align: center;
-      }
-
-      .footer-column p {
-        font-size: 0.95em;
-        line-height: 1.5;
-      }
-
-
-
 /*slider*/
 
   .slider {
@@ -289,6 +248,7 @@ button:hover {
   text-align: right;
   color: #003d92;
   margin-top: 0.5px;
+
 }
 .regresar-catalogo{
   text-align: left;
@@ -307,7 +267,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   margin-top: 20px;
-  background-color: #1f5709;
+  background-color: #e6f0ff;
   border: 1px solid #b41414;
 }
 
@@ -318,12 +278,15 @@ th, td {
 }
 
 th {
-  background-color: #04612e;
+  background-color: #004080;
+  text-align: center;
+  color: white;
 }
 
+
 td button {
-  background: #dc3545;
-  color: #064628;
+  background: #f30e25;
+  color: #ffffff;
   padding: 5px 8px;
   border: none;
   border-radius: 4px;
@@ -331,7 +294,7 @@ td button {
 }
 
 td button:hover {
-  background: #c82333;
+  background: #b68067;
 }
 
 

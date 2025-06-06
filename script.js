@@ -20,11 +20,11 @@ document.addEventListener('DOMContentLoaded', () => {
       showSlide(current);
     });
 
-    // Auto slide cada 4 segundos
+    // Auto slide cada 2 segundos
     setInterval(() => {
       current = (current === slides.length - 1) ? 0 : current + 1;
       showSlide(current);
-    }, 4000);
+    }, 2000);
 
     showSlide(current);
   });
